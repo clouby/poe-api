@@ -95,7 +95,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-test (1.1.0)
@@ -175,7 +175,7 @@ DEPENDENCIES
   database_cleaner
   factory_bot_rails (~> 5.2)
   faker
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3)
   rspec-rails (~> 4.0, >= 4.0.1)
   shoulda-matchers (~> 4.3)
