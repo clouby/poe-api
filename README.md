@@ -1,7 +1,6 @@
-# README
+# 🟣 Poe API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a service that provide you subliminal words about poetry powered by 📝.
 
 Things you may want to cover:
 
