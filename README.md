@@ -1,6 +1,6 @@
 # 🟣 Poe API
 
-This is a service that provide you subliminal words about poetry powered by 📝.
+This is a service that provide subliminal words about poetry powered by 📝.
 
 Things you may want to cover:
 
