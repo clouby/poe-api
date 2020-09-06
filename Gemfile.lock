@@ -99,6 +99,11 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
+=======
+    nokogiri (1.10.9-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
+>>>>>>> a682b7701bebb5d07fbe281e7b2b90092fc8476d
     puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.3)
@@ -166,7 +171,11 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+<<<<<<< HEAD
     zeitwerk (2.3.1)
+=======
+    zeitwerk (2.3.0)
+>>>>>>> a682b7701bebb5d07fbe281e7b2b90092fc8476d
 
 PLATFORMS
   ruby
@@ -178,10 +187,14 @@ DEPENDENCIES
   database_cleaner
   factory_bot_rails (~> 5.2)
   faker
+<<<<<<< HEAD
   front_matter_parser
   graphql
   graphql_playground-rails
   puma (~> 4.1)
+=======
+  puma (~> 4.3)
+>>>>>>> a682b7701bebb5d07fbe281e7b2b90092fc8476d
   rails (~> 6.0.3)
   redcarpet
   rspec-rails (~> 4.0, >= 4.0.1)
