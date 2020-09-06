@@ -10,23 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_17_022739) do
+ActiveRecord::Schema.define(version: 2020_07_13_003201) do
 
-  create_table "items", force: :cascade do |t|
-    t.string "name"
-    t.boolean "done"
-    t.integer "todo_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["todo_id"], name: "index_items_on_todo_id"
-  end
-
-  create_table "todos", force: :cascade do |t|
+  create_table "poetries", force: :cascade do |t|
+    t.text "body_markdown"
+    t.text "processed_html"
     t.string "title"
-    t.string "created_by"
+    t.string "author"
+    t.string "description"
+    t.boolean "published", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "items", "todos"
 end
