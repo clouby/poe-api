@@ -20,7 +20,6 @@ RSpec.describe 'Poe GraphQL Requests', type: :request do
         
         it 'Poetry most be an simple object' do
             data = json['data']['getPoetry']
-            p poetry
             expect(data).to include(
                 'bodyMarkdown' => poetry.body_markdown
             )
