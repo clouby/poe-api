@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_07_13_003201) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "poetries", force: :cascade do |t|
     t.text "body_markdown"
     t.text "processed_html"

@@ -12,7 +12,7 @@ module Types
     end
     
     # Resolvers
-    def all_poems
+    def poetries
       Poetry.all
     end
 
