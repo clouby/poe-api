@@ -13,7 +13,6 @@ class Mutations::CreatePoetry < Mutations::BaseMutation
 
   def resolve(content:, **args)
     a_poetry = Poetry.create(body_markdown: content, **args)
-
     Poetry.take
   end
 
